@@ -2,10 +2,10 @@ name: integracion continua con node.js
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   push:
     branches:
-      - master
+      - main
 
 jobs:
   ci_to_master:
