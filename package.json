@@ -4,8 +4,7 @@
   "description": "",
   "main": "suma.js",
   "scripts": {
-    "testsuma": "npx mocha -r ts-node/register src/suma.test.ts",
-    "test": "jest",
+    "test": "npx mocha -r ts-node/register src/suma.test.ts",
     "build": "node suma"
   },
   "keywords": [],
