@@ -9,7 +9,7 @@ export class Suma{
     constructor(a: number, b: number) {
         this.a = a;
         this.b = b;
-        this._respuesta = a + b;
+        this._respuesta = b + a;
     }
 
 
